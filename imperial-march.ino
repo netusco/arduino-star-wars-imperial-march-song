@@ -341,6 +341,7 @@ int tuneLength = sizeof(imperialMarchTuneTpt1) / 2;
 void playMelody(char title[], int tune[], int tempo[], int tuneLength, int buzzPin)
 {
   if(DEBUG) {
+		Serial.println();
     Serial.println(title);
     Serial.println();
   }
